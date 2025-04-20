@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RRF Template (3-8)</title>
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="./src/output.css" />
+
+    <!-- script js -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="bg-white fixed w-full z-50 -mt-[60px]">
+      <nav
+        class="w-[1170px] h-[60px] container mx-auto flex justify-between items-center"
+      >
+        <a href="index.html"
+          ><img
+            src="./assets/logo/logo-nav.svg"
+            alt="brand-logo"
+            class="cursor-pointer"
+        /></a>
+        <div
+          class="text-sm font-bold leading-[100%] text-nav-text flex gap-10 items-center"
+        >
+          <ul class="flex gap-[37px]">
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./project.html">Project</a></li>
+            <li><a href="./blogs.html">Blogs</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <a href="#">
+            <button
+              class="text-xs text-white hover:text-primary border border-primary hover:border-primary uppercase pt-3 pb-2.5 pl-[9px] pr-2 bg-primary hover:bg-white rounded-[5px] cursor-pointer transition delay-100"
+            >
+              Request a call Back
+            </button>
+          </a>
+        </div>
+      </nav>
+      <hr class="border-[0.1px] border-zinc-100 drop-shadow-lg" />
+    </header>
+
+    <!-- hero -->
+    <section class="bg-white">
+      <div
+        class="w-[1170px] container mx-auto flex justify-between items-center pt-12 mt-[60px]"
+      >
+        <div
+          class="text-black"
+          style="font-family: 'Bricolage Grotesque', sans-serif"
+        >
+          <h1
+            class="text-[44px] font-medium leading-[120%] mb-[17px] uppercase"
+          >
+            <span class="font-extrabold">Call us For Any</span> <br />
+            Plumbing Needs
+          </h1>
+          <h3 class="text-[34px] font-extrabold leading-[100%] uppercase mb-4">
+            +1800-9938-2839
+          </h3>
+          <a href="#" style="font-family: Roboto, sans-serif">
+            <button
+              class="text-title font-normal uppercase text-white hover:text-primary px-[17px] py-3 bg-primary hover:bg-white border border-primary rounded-[35px] cursor-pointer transition delay-100"
+            >
+              See All Service
+            </button>
+          </a>
+        </div>
+        <div class="flex items-center">
+          <img
+            src="./assets/images/image-hero-1.png"
+            alt="hero-image"
+            class="h-[436px]"
+          />
+          <img
+            src="./assets/images/image-hero-2.png"
+            alt="hero-image"
+            class="h-[341px] -ml-[26px]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- service features -->
+    <section class="bg-primary">
+      <div
+        class="w-[1170px] container mx-auto pt-[75.08px] pb-[34px] flex gap-[46px] justify-around"
+      >
+        <div class="w-[237px] text-white text-center">
+          <img
+            src="./assets/icons/feature-1.svg"
+            alt="features"
+            class="mx-auto mb-[15.12px]"
+          />
+          <h5 class="text-sm font-medium mb-3">Residential Service</h5>
+          <p class="text-xs font-normal mb-5">
+            We provide reliable residential plumbing services including leak
+            repairs, pipe installations, and drain cleaning. Our expert team
+            ensures quality work with quick response.
+          </p>
+          <a href="#">
+            <button
+              class="text-title font-normal text-black px-[17px] py-[7px] bg-[#F6FAFB] rounded-[5px] cursor-pointer hover:text-primary transition delay-100"
+            >
+              Learn More
+            </button>
+          </a>
+        </div>
+        <div class="w-0 h-auto border border-[#E6E6EB]"></div>
+        <div class="w-[237px] text-white text-center">
+          <img
+            src="./assets/icons/feature-2.svg"
+            alt="features"
+            class="mx-auto mb-[15.12px]"
+          />
+          <h5 class="text-sm font-medium mb-3">Commercial Service</h5>
+          <p class="text-xs font-normal mb-6">
+            We offer comprehensive commercial plumbing services including
+            installation, repair, and maintenance for businesses. Our experts
+            ensure minimal disruption and long-term reliability.
+          </p>
+          <a href="#">
+            <button
+              class="text-title font-normal text-black px-[17px] py-[7px] bg-[#F6FAFB] rounded-[5px] cursor-pointer hover:text-primary transition delay-100"
+            >
+              Learn More
+            </button>
+          </a>
+        </div>
+        <div class="w-0 h-auto border border-[#E6E6EB]"></div>
+        <div class="w-[237px] text-white text-center">
+          <img
+            src="./assets/icons/feature-3.svg"
+            alt="features"
+            class="mx-auto mb-[15.12px]"
+          />
+          <h5 class="text-sm font-medium mb-3">Maintenance</h5>
+          <p class="text-xs font-normal mb-2">
+            Our plumbing maintenance services ensure your system runs smoothly,
+            preventing costly repairs. We provide regular inspections and quick
+            fixes for lasting efficiency.
+          </p>
+          <a href="#">
+            <button
+              class="text-title font-normal text-black px-[17px] py-[7px] bg-[#F6FAFB] rounded-[5px] cursor-pointer hover:text-primary transition delay-100"
+            >
+              Learn More
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- welcome to learn more -->
+    <section class="bg-white">
+      <div class="w-[1170px] container mx-auto mt-[81px] mb-[76px] relative">
+        <div
+          class="max-w-[542px] pt-[22px] pb-[17px] pl-[49px] pr-[61px] absolute top-1/2 -mt-[163.5px] left-0 bg-white/70"
+        >
+          <div class="text-black mb-[42px]">
+            <h3 class="text-[44px] font-bold leading-[100%] mb-3">
+              Welcome to <br />
+              Plumber Company
+            </h3>
+            <p class="text-sm font-normal leading-auto">
+              Welcome to Plumber Point, where your plumbing needs are our top
+              priority. Whether it’s a quick fix or a major repair, our expert
+              team is here to provide fast, reliable, and affordable plumbing
+              solutions. We’re dedicated to keeping your home and business
+              running smoothly!
+            </p>
+          </div>
+          <a href="#">
+            <button
+              class="text-title font-normal uppercase underline text-white hover:text-primary hover:bg-white border border-primary px-4 py-[11px] bg-primary rounded-[45px] cursor-pointer"
+            >
+              Learn More
+            </button>
+          </a>
+        </div>
+        <img src="./assets/images/welcome.png" alt="welcome" />
+      </div>
+    </section>
+
+    <!-- company history -->
+    <section class="bg-primary">
+      <div class="w-[1170px] container mx-auto py-[38px] flex gap-[98px]">
+        <div class="w-1/2">
+          <img src="./assets/images/history.png" alt="" />
+        </div>
+        <div class="max-w-[436px] text-white my-auto">
+          <div class="mb-8">
+            <h4 class="text-[44px] font-bold leading-[100%] mb-[18px]">
+              Our Company History
+            </h4>
+            <p class="text-[14px] font-normal leading-[100%]">
+              Founded over two decades ago, our plumbing company began with a
+              simple mission — to deliver honest, high-quality service. What
+              started as a one-man operation has grown into a trusted name in
+              the community, known for reliability, professionalism, and lasting
+              solutions for every plumbing need.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[30px] font-light leading-[100%] mb-3.5">
+              Trust Our Team of Experts
+            </h4>
+            <p class="text-[14px] font-n leading-[100%]">
+              Trust our team of licensed plumbing experts to handle every job
+              with care and precision. With years of hands-on experience, we
+              bring skill, dedication, and attention to detail to every project,
+              ensuring dependable solutions and customer satisfaction you can
+              count on every time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- more feature -->
+    <section class="bg-white">
+      <div class="w-[1160px] container mx-auto mt-[87px] mb-[66px]">
+        <div class="max-w-[983px] mx-auto text-center mb-[50px]">
+          <h4
+            class="text-headline font-medium leading-[100%] text-heading mb-4"
+          >
+            Plumber Points
+          </h4>
+          <p class="text-title font-normal leading-[134%] text-sub-heading">
+            We are a full-service plumbing company committed to excellence in
+            every job we do. From small leaks to large-scale installations, our
+            skilled professionals deliver reliable and affordable service. With
+            a focus on quality and customer care, we’ve built a reputation you
+            can trust.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-y-[30px] justify-between w-[1160px]">
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Residential Service
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Commercial Service
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Maintenance
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Pipe Repair & Replacement
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Emergency Service
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Drain Cleaning Service
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Leak Detection & Repair
+          </span>
+          <span
+            class="flex lg:flex-1/4 md:flex-1/2 sm:flex-1/2 flex-1/1 gap-2.5 items-center text-sm font-medium leading-[100%] text-black"
+          >
+            <img src="./assets/icons/Ellipse 41.svg" alt="Ellipse" />
+            Water Heater Installation & Repair
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner -->
+    <section class="w-full h-[255px]">
+      <img
+        src="./assets/images/image 4.png"
+        alt="banner"
+        class="w-full h-full object-cover"
+      />
+    </section>
+
+    <!-- team -->
+    <section class="bg-white">
+      <div class="w-[1170px] container mx-auto mt-[63px] mb-[69px]">
+        <div class="max-w-[983px] mx-auto text-center mb-[50px]">
+          <h4
+            class="text-headline font-medium leading-[100%] text-heading mb-4"
+          >
+            Our Dedicated Team
+          </h4>
+          <p class="text-title font-normal leading-[134%] text-sub-heading">
+            Our dedicated plumber team brings years of hands-on experience to
+            every project. Committed to quality, safety, and customer
+            satisfaction, they tackle each job with care. Trust our team for
+            prompt, professional, and dependable plumbing service you can always
+            rely on.
+          </p>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="relative w-[262px] h-[368px] flex-1/4">
+            <img
+              src="./assets/images/team-member-1.png"
+              alt="team"
+              class="w-full h-full object-contain"
+            />
+            <div
+              class="text-xl font-medium leading-[100%] text-white bg-primary w-[210px] py-2.5 rounded-[5px] text-center absolute -bottom-10 left-[26px]"
+            >
+              <h6 class="text-lg">Vinay Kumar</h6>
+              Plumber
+            </div>
+          </div>
+          <div class="relative w-[262px] h-[368px] flex-1/4">
+            <img
+              src="./assets/images/team-member-2.png"
+              alt="team"
+              class="w-full h-full object-contain"
+            />
+            <div
+              class="text-xl font-medium leading-[100%] text-white bg-primary w-[210px] py-2.5 rounded-[5px] text-center absolute -bottom-10 left-[26px]"
+            >
+              <h6 class="text-lg">Emily Rivera</h6>
+              Plumber
+            </div>
+          </div>
+          <div class="relative w-[262px] h-[368px] flex-1/4">
+            <img
+              src="./assets/images/team-member-3.png"
+              alt="team"
+              class="w-full h-full object-contain"
+            />
+            <div
+              class="text-xl font-medium leading-[100%] text-white bg-primary w-[210px] py-2.5 rounded-[5px] text-center absolute -bottom-10 left-[26px]"
+            >
+              <h6 class="text-lg">Jason Miller</h6>
+              Plumber
+            </div>
+          </div>
+          <div class="relative w-[262px] h-[368px] flex-1/4">
+            <img
+              src="./assets/images/team-member-4.png"
+              alt="team"
+              class="w-full h-full object-contain"
+            />
+            <div
+              class="text-xl font-medium leading-[100%] text-white bg-primary w-[210px] py-2.5 rounded-[5px] text-center absolute -bottom-10 left-[26px]"
+            >
+              <h6 class="text-lg">Samantha Hayes</h6>
+              Plumber
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="w-full h-[316px] relative pt-[45px] pb-9">
+      <!-- Carousel Container -->
+      <div class="overflow-hidden relative h-full z-10">
+        <div
+          class="flex transition-transform duration-500 ease-in-out"
+          id="carousel"
+        >
+          <!-- Slide 1 -->
+          <div class="min-w-full flex flex-col items-center">
+            <h1
+              class="text-headline font-medium leading-[100%] text-testimonial mb-[41px]"
+            >
+              Testimonials
+            </h1>
+            <p
+              class="text-xl font-normal leading-[100%] text-white max-w-[930px] text-center pb-5"
+            >
+              “I had a leaking pipe and called the plumber service. They arrived
+              on time, fixed the issue efficiently, and were extremely
+              courteous. I'm very satisfied with their work and would gladly
+              recommend them to others.”
+            </p>
+            <h6 class="text-xl font-bold leading-[100%] text-white">
+              Johny Vino
+            </h6>
+          </div>
+          <!-- Slide 2 -->
+          <div class="min-w-full flex flex-col items-center">
+            <h1
+              class="text-headline font-medium leading-[100%] text-testimonial mb-[41px]"
+            >
+              Testimonials
+            </h1>
+            <p
+              class="text-xl font-normal leading-[100%] text-white max-w-[930px] text-center pb-5"
+            >
+              “The team replaced our old water heater quickly and
+              professionally. The plumber explained everything clearly and left
+              the area spotless. I’m impressed by their service and will
+              definitely hire them again.”
+            </p>
+            <h6 class="text-xl font-bold leading-[100%] text-white">
+              Marcus Reed
+            </h6>
+          </div>
+          <!-- Slide 3 -->
+          <div class="min-w-full flex flex-col items-center">
+            <h1
+              class="text-headline font-medium leading-[100%] text-testimonial mb-[41px]"
+            >
+              Testimonials
+            </h1>
+            <p
+              class="text-xl font-normal leading-[100%] text-white max-w-[930px] text-center pb-5"
+            >
+              “I reached out for an emergency late-night repair, and they showed
+              up within 30 minutes. Their calm and confident handling of the
+              situation saved my home from water damage. Truly dependable
+              experts.”
+            </p>
+            <h6 class="text-xl font-bold leading-[100%] text-white">
+              Sophia Carter
+            </h6>
+          </div>
+          <!-- Slide 4 -->
+          <div class="min-w-full flex flex-col items-center">
+            <h1
+              class="text-headline font-medium leading-[100%] text-testimonial mb-[41px]"
+            >
+              Testimonials
+            </h1>
+            <p
+              class="text-xl font-normal leading-[100%] text-white max-w-[930px] text-center pb-5"
+            >
+              “Booking the plumbing service was easy, and the plumber was on
+              time and well-prepared. He completed the job without any mess and
+              gave maintenance tips. I appreciate the honest and quality
+              service.”
+            </p>
+            <h6 class="text-xl font-bold leading-[100%] text-white">
+              Daniel Foster
+            </h6>
+          </div>
+        </div>
+
+        <!-- Dot Indicators -->
+        <div
+          class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-1"
+        >
+          <button
+            class="w-[6px] h-[6.07px] rounded-full bg-secondary opacity-50 hover:opacity-100 focus:opacity-100 bg-[#E2E2E2]"
+            onclick="moveToSlide(0)"
+          ></button>
+          <button
+            class="w-[6px] h-[6.07px] rounded-full bg-secondary opacity-50 hover:opacity-100 focus:opacity-100 bg-[#E2E2E2]"
+            onclick="moveToSlide(1)"
+          ></button>
+          <button
+            class="w-[6px] h-[6.07px] rounded-full bg-secondary opacity-50 hover:opacity-100 focus:opacity-100 bg-[#E2E2E2]"
+            onclick="moveToSlide(2)"
+          ></button>
+          <button
+            class="w-[6px] h-[6.07px] rounded-full bg-secondary opacity-50 hover:opacity-100 focus:opacity-100 bg-[#E2E2E2]"
+            onclick="moveToSlide(3)"
+          ></button>
+        </div>
+      </div>
+
+      <img
+        src="./assets/images/testimonial.png"
+        alt="banner"
+        class="w-full h-full object-cover absolute top-0 z-0"
+      />
+      <img
+        src="./assets/images/testimonial-bg-lay.png"
+        alt="banner"
+        class="w-full h-full object-cover absolute top-0 z-0"
+      />
+    </section>
+
+    <!-- blogs -->
+    <section class="bg-white">
+      <div class="w-[1170px] container mx-auto mt-[67px] mb-[50px]">
+        <h4
+          class="text-headline font-medium leading-[100%] text-heading uppercase mb-[43px]"
+        >
+          our recent blogs
+        </h4>
+        <div class="flex justify-between">
+          <div class="text-black font-normal w-[330px]">
+            <img
+              src="./assets/images/blog-1.png"
+              alt="blog-1"
+              class="w-full h-[132px] object-cover rounded-t-[5px]"
+            />
+            <h5 class="text-xl leading-[100%] mt-[17.52px]">
+              Expert Tips for Fixing Low Water Pressure Fast.
+            </h5>
+            <p class="text-sm leading-[100%] mt-4">
+              Stop stressing over burst pipes and messy water leaks. Our
+              experienced plumbing professionals are ready to handle all your
+              emergencies...
+            </p>
+          </div>
+          <div class="text-black font-normal w-[330px]">
+            <img
+              src="./assets/images/blog-2.png"
+              alt="blog-2"
+              class="w-full h-[132px] object-cover rounded-t-[5px]"
+            />
+            <h5 class="text-xl leading-[100%] mt-[17.52px]">
+              How to Spot Hidden Plumbing Leaks Early On.
+            </h5>
+            <p class="text-sm leading-[100%] mt-4">
+              Don’t struggle with clogged drains and faulty faucets at home. We
+              bring advanced tools and trusted expertise to solve your
+              problems...
+            </p>
+          </div>
+          <div class="text-black font-normal w-[330px]">
+            <img
+              src="./assets/images/blog-3.png"
+              alt="blog-3"
+              class="w-full h-[132px] object-cover rounded-t-[5px]"
+            />
+            <h5 class="text-xl leading-[100%] mt-[17.52px]">
+              Top Reasons to Schedule Routine Pipe Checks.
+            </h5>
+            <p class="text-sm leading-[100%] mt-4">
+              Say goodbye to low water pressure and outdated plumbing systems.
+              Our team ensures smooth flow and modern solutions tailored to
+              your...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-black pt-[31px] pb-3">
+      <div class="w-[1170px] container mx-auto">
+        <div class="flex justify-between text-white">
+          <div class="max-w-[362px]">
+            <img src="./assets/logo/logo-footer.svg" alt="company-logo" />
+            <p class="text-xs font-normal leading-[100%] mt-11 mb-4">
+              Our plumbing company delivers trusted, high-quality service for
+              homes and businesses. With years of experience and a team of
+              certified experts, we handle repairs, installations, and
+              maintenance with precision. Count on us for timely solutions and
+              customer-first care.
+            </p>
+            <span class="flex gap-5">
+              <img src="./assets/logo/facebook.svg" alt="facebook" />
+              <img src="./assets/logo/google.svg" alt="google" />
+              <img src="./assets/logo/twitter.svg" alt="twitter" />
+            </span>
+          </div>
+          <div class="w-[149px] text-xs font-normal">
+            <h4
+              class="text-title font-bold leading-[100%] text-primary uppercase mb-10"
+            >
+              Our Services
+            </h4>
+            <span class="leading-[100%] block mb-[15px]">Plumber Service</span>
+            <span class="leading-[100%] block mb-[15px]"
+              >Bathroom Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Kitchen Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Roof Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Bathroom Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Kitchen Plumbing Service</span
+            >
+          </div>
+          <div class="w-[151px] text-xs font-normal">
+            <h4
+              class="text-title font-bold leading-[100%] text-primary uppercase mb-11"
+            >
+              Contact
+            </h4>
+            <p class="mb-[38px]">
+              <span class="leading-[100%] block">+44 117 456 7890</span>
+              <span class="leading-[100%]">support@plumberpoint.com</span>
+            </p>
+            <p class="mb-[38px]">
+              <span class="leading-[100%] block">28 Copperfield Road</span>
+              <span class="leading-[100%]"
+                >Bristol, BS5 9EQ <br />
+                United Kingdom</span
+              >
+            </p>
+            <p>
+              <span class="leading-[100%] block">Mon-Sat 9.00-15:00 </span>
+              <span class="leading-[100%]">Sunday CLOSED</span>
+            </p>
+          </div>
+          <div class="w-[260px] text-xs font-normal">
+            <h4
+              class="text-title font-bold leading-[100%] text-primary uppercase mb-[25px]"
+            >
+              Recent Post
+            </h4>
+            <div class="flex items-center gap-3 mb-[22px]">
+              <img
+                src="./assets/images/recent-post-1.png"
+                alt="recent-post"
+                class="w-[68px] h-[50px] object-cover"
+              />
+              <p class="text-[8px] font-normal">
+                <span
+                  class="block text-[10px] font-medium leading-[100%] mb-[5px]"
+                  >Sewer Line Repair</span
+                >
+                How Regular Drain Cleaning Can Save You From Major Pipe Damage
+                and Unexpected Plumbing Emergencies in Your Home.
+              </p>
+            </div>
+            <div class="flex items-center gap-3 mb-[22px]">
+              <img
+                src="./assets/images/recent-post-2.png"
+                alt="recent-post"
+                class="w-[68px] h-[50px] object-cover"
+              />
+              <p class="text-[8px] font-normal">
+                <span
+                  class="block text-[10px] font-medium leading-[100%] mb-[5px]"
+                  >Bathroom Upgrades</span
+                >
+                Essential Plumbing Checks Every Homeowner Should Do Before the
+                Rainy Season Starts and How to Avoid Costly Repairs Later.
+              </p>
+            </div>
+            <div class="flex items-center gap-3">
+              <img
+                src="./assets/images/recent-post-3.png"
+                alt="recent-post"
+                class="w-[68px] h-[50px] object-cover"
+              />
+              <p class="text-[8px] font-normal">
+                <span
+                  class="block text-[10px] font-medium leading-[100%] mb-[5px]"
+                  >Faucet Installation</span
+                >
+                Top Water Heater Maintenance Tips to Keep Your System Running
+                Smoothly All Year Round Without Losing Efficiency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="w-full h-0 border-0 border-b border-white mt-[25px] mb-3" />
+      <div
+        class="w-[1170px] container mx-auto text-[10px] font-normal leading-[100%] text-primary flex justify-between"
+      >
+        <p class="text">
+          &copy; 2025 Plumber Point Services. All rights reserved.
+        </p>
+        <p class="flex gap-[38px]">
+          <span>Term of Services</span>
+          <span>Privacy & policy</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

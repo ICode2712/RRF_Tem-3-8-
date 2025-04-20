@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RRF Template (3-8)</title>
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="./src/output.css" />
+
+    <!-- script js -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="bg-white fixed w-full z-50 -mt-[60px]">
+      <nav
+        class="w-[1170px] h-[60px] container mx-auto flex justify-between items-center"
+      >
+        <a href="index.html"
+          ><img
+            src="./assets/logo/logo-nav.svg"
+            alt="brand-logo"
+            class="cursor-pointer"
+        /></a>
+        <div
+          class="text-sm font-bold leading-[100%] text-nav-text flex gap-10 items-center"
+        >
+          <ul class="flex gap-[37px]">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./project.html">Project</a></li>
+            <li><a href="./blogs.html">Blogs</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+          </ul>
+          <a href="#">
+            <button
+              class="text-xs text-white hover:text-primary border border-primary hover:border-primary uppercase pt-3 pb-2.5 pl-[9px] pr-2 bg-primary hover:bg-white rounded-[5px] cursor-pointer transition delay-100"
+            >
+              Request a call Back
+            </button>
+          </a>
+        </div>
+      </nav>
+      <hr class="border-[0.1px] border-zinc-100 drop-shadow-lg" />
+    </header>
+
+    <!-- contact banner -->
+    <section class="w-full h-[304px] relative">
+      <div
+        class="w-[1170px] container mx-auto flex justify-between items-center pt-12 mt-[60px]"
+      >
+        <div class="text-left max-w-[432px] mt-[84px] z-10">
+          <h2
+            class="text-[44px] font-black leading-[100%] text-testimonial uppercase mb-3.5"
+          >
+            Contact us
+          </h2>
+          <p class="text-sm font-normal leading-[100%] text-white">
+            Have a plumbing issue or need expert advice? Our team at Plumber
+            Point is here to help with quick and reliable service. Whether it’s
+            a leak, installation, or maintenance, we’re just one call away to
+            assist with your plumbing needs.
+          </p>
+        </div>
+      </div>
+      <img
+        src="./assets/images/about-bg.png"
+        alt="about-bg"
+        class="absolute top-0 left-0 w-full h-full object-center object-cover"
+      />
+      <img
+        src="./assets/images/about-layer.png"
+        alt="about-bg-layer"
+        class="absolute top-0 left-0 w-full h-full"
+      />
+    </section>
+
+    <!-- contact form -->
+    <section>
+      <div class="w-[1070px] conainer mx-auto mt-[63px] mb-[60px]">
+        <h4
+          class="text-[40px] font-bold leading-most text-black text-center mb-8"
+        >
+          Get in touch
+        </h4>
+        <form class="max-w-full mx-auto">
+          <div class="grid md:grid-cols-2 gap-10">
+            <div class="relative z-0 w-full mb-[52px] group">
+              <input
+                type="text"
+                name="floating_full_name"
+                id="floating_full_name"
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-[#707070] appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating_full_name"
+                class="peer-focus:font-medium absolute text-title text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Full name</label
+              >
+            </div>
+            <div class="relative z-0 w-full mb-[52px] group">
+              <input
+                type="email"
+                name="floating_email"
+                id="floating_email"
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-[#707070] appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating_email"
+                class="peer-focus:font-medium absolute text-title text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Email Address</label
+              >
+            </div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-10">
+            <div class="relative z-0 w-full mb-[52px] group">
+              <input
+                type="tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                name="floating_phone"
+                id="floating_phone"
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-[#707070] appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating_phone"
+                class="peer-focus:font-medium absolute text-title text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Contact Number</label
+              >
+            </div>
+            <div class="relative z-0 w-full mb-[52px] group">
+              <input
+                type="text"
+                name="floating_subject"
+                id="floating__subject"
+                class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-[#707070] appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                placeholder=" "
+                required
+              />
+              <label
+                for="floating__subject"
+                class="peer-focus:font-medium absolute text-title text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                >Subject</label
+              >
+            </div>
+          </div>
+          <div class="relative z-0 w-full group">
+            <input
+              type="text"
+              name="floating_description"
+              id="floating_description"
+              class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-[#707070] appearance-none dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              placeholder=" "
+              required
+            />
+            <label
+              for="floating_description"
+              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              >Description</label
+            >
+          </div>
+          <div class="text-right mt-[33px]">
+            <button
+              type="submit"
+              class="text-white hover:text-black bg-primary hover:bg-white border border-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-[30px] text-xl uppercase w-full sm:w-auto px-6 py-4 text-center cursor-pointer"
+            >
+              Send A Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- address map -->
+    <section>
+      <div
+        class="w-[1170px] container mx-auto py-[33px] flex justify-between items-center mb-[60px]"
+      >
+        <div class="text-sm font-normal text-black max-w-[377px] my-auto">
+          <div class="mb-6">
+            <h5 class="text-lg font-bold leading-most text-primary mb-[7px]">
+              Contact Us
+            </h5>
+            <p class="leading-[110%]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="mb-6">
+            <h5 class="font-bold leading-most text-primary mb-[5px]">
+              Business hours:
+            </h5>
+            <p class="leading-most">Monday to Saturday 9.00 - 15:00</p>
+          </div>
+          <div class="mb-6">
+            <h5 class="font-bold leading-most text-primary mb-[5px]">
+              Address:
+            </h5>
+            <p class="leading-[110%]">
+              28 Copperfield Road <br />
+              Bristol, BS5 9EQ <br />
+              United Kingdom
+            </p>
+          </div>
+          <div class="mb-6">
+            <h5 class="font-bold leading-most text-primary mb-[5px]">Email:</h5>
+            <p class="leading-most">support@plumberpoint.com</p>
+          </div>
+          <div class="mb-6">
+            <h5 class="font-bold leading-most text-primary">Phone:</h5>
+            <p class="leading-most">+44 117 456 7890</p>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.908672984943!2d-2.560283454829821!3d51.45983319909782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718e4ec29752f3%3A0xbe86ac89069c7e45!2sRedfield%2C%20Bristol%20BS5%209EQ%2C%20UK!5e0!3m2!1sen!2sbd!4v1745166302151!5m2!1sen!2sbd"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="max-w-[661px] max-h-[354px]"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- blogs -->
+    <section class="bg-white">
+      <div class="w-[1170px] container mx-auto mb-[50px]">
+        <h4
+          class="text-headline font-medium leading-[100%] text-heading uppercase mb-[43px]"
+        >
+          our recent blogs
+        </h4>
+        <div class="flex justify-between">
+          <div class="text-black font-normal w-[330px]">
+            <img
+              src="./assets/images/blog-1.png"
+              alt="blog-1"
+              class="w-full h-[132px] object-cover rounded-t-[5px]"
+            />
+            <h5 class="text-xl leading-[100%] mt-[17.52px]">
+              Expert Tips for Fixing Low Water Pressure Fast.
+            </h5>
+            <p class="text-sm leading-[100%] mt-4">
+              Stop stressing over burst pipes and messy water leaks. Our
+              experienced plumbing professionals are ready to handle all your
+              emergencies...
+            </p>
+          </div>
+          <div class="text-black font-normal w-[330px]">
+            <img
+              src="./assets/images/blog-2.png"
+              alt="blog-2"
+              class="w-full h-[132px] object-cover rounded-t-[5px]"
+            />
+            <h5 class="text-xl leading-[100%] mt-[17.52px]">
+              How to Spot Hidden Plumbing Leaks Early On.
+            </h5>
+            <p class="text-sm leading-[100%] mt-4">
+              Don’t struggle with clogged drains and faulty faucets at home. We
+              bring advanced tools and trusted expertise to solve your
+              problems...
+            </p>
+          </div>
+          <div class="text-black font-normal w-[330px]">
+            <img
+              src="./assets/images/blog-3.png"
+              alt="blog-3"
+              class="w-full h-[132px] object-cover rounded-t-[5px]"
+            />
+            <h5 class="text-xl leading-[100%] mt-[17.52px]">
+              Top Reasons to Schedule Routine Pipe Checks.
+            </h5>
+            <p class="text-sm leading-[100%] mt-4">
+              Say goodbye to low water pressure and outdated plumbing systems.
+              Our team ensures smooth flow and modern solutions tailored to
+              your...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-black pt-[31px] pb-3">
+      <div class="w-[1170px] container mx-auto">
+        <div class="flex justify-between text-white">
+          <div class="max-w-[362px]">
+            <img src="./assets/logo/logo-footer.svg" alt="company-logo" />
+            <p class="text-xs font-normal leading-[100%] mt-11 mb-4">
+              Our plumbing company delivers trusted, high-quality service for
+              homes and businesses. With years of experience and a team of
+              certified experts, we handle repairs, installations, and
+              maintenance with precision. Count on us for timely solutions and
+              customer-first care.
+            </p>
+            <span class="flex gap-5">
+              <img src="./assets/logo/facebook.svg" alt="facebook" />
+              <img src="./assets/logo/google.svg" alt="google" />
+              <img src="./assets/logo/twitter.svg" alt="twitter" />
+            </span>
+          </div>
+          <div class="w-[149px] text-xs font-normal">
+            <h4
+              class="text-title font-bold leading-[100%] text-primary uppercase mb-10"
+            >
+              Our Services
+            </h4>
+            <span class="leading-[100%] block mb-[15px]">Plumber Service</span>
+            <span class="leading-[100%] block mb-[15px]"
+              >Bathroom Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Kitchen Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Roof Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Bathroom Plumbing Service</span
+            >
+            <span class="leading-[100%] block mb-[15px]"
+              >Kitchen Plumbing Service</span
+            >
+          </div>
+          <div class="w-[151px] text-xs font-normal">
+            <h4
+              class="text-title font-bold leading-[100%] text-primary uppercase mb-11"
+            >
+              Contact
+            </h4>
+            <p class="mb-[38px]">
+              <span class="leading-[100%] block">+44 117 456 7890</span>
+              <span class="leading-[100%]">support@plumberpoint.com</span>
+            </p>
+            <p class="mb-[38px]">
+              <span class="leading-[100%] block">28 Copperfield Road</span>
+              <span class="leading-[100%]"
+                >Bristol, BS5 9EQ <br />
+                United Kingdom</span
+              >
+            </p>
+            <p>
+              <span class="leading-[100%] block">Mon-Sat 9.00-15:00 </span>
+              <span class="leading-[100%]">Sunday CLOSED</span>
+            </p>
+          </div>
+          <div class="w-[260px] text-xs font-normal">
+            <h4
+              class="text-title font-bold leading-[100%] text-primary uppercase mb-[25px]"
+            >
+              Recent Post
+            </h4>
+            <div class="flex items-center gap-3 mb-[22px]">
+              <img
+                src="./assets/images/recent-post-1.png"
+                alt="recent-post"
+                class="w-[68px] h-[50px] object-cover"
+              />
+              <p class="text-[8px] font-normal">
+                <span
+                  class="block text-[10px] font-medium leading-[100%] mb-[5px]"
+                  >Sewer Line Repair</span
+                >
+                How Regular Drain Cleaning Can Save You From Major Pipe Damage
+                and Unexpected Plumbing Emergencies in Your Home.
+              </p>
+            </div>
+            <div class="flex items-center gap-3 mb-[22px]">
+              <img
+                src="./assets/images/recent-post-2.png"
+                alt="recent-post"
+                class="w-[68px] h-[50px] object-cover"
+              />
+              <p class="text-[8px] font-normal">
+                <span
+                  class="block text-[10px] font-medium leading-[100%] mb-[5px]"
+                  >Bathroom Upgrades</span
+                >
+                Essential Plumbing Checks Every Homeowner Should Do Before the
+                Rainy Season Starts and How to Avoid Costly Repairs Later.
+              </p>
+            </div>
+            <div class="flex items-center gap-3">
+              <img
+                src="./assets/images/recent-post-3.png"
+                alt="recent-post"
+                class="w-[68px] h-[50px] object-cover"
+              />
+              <p class="text-[8px] font-normal">
+                <span
+                  class="block text-[10px] font-medium leading-[100%] mb-[5px]"
+                  >Faucet Installation</span
+                >
+                Top Water Heater Maintenance Tips to Keep Your System Running
+                Smoothly All Year Round Without Losing Efficiency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="w-full h-0 border-0 border-b border-white mt-[25px] mb-3" />
+      <div
+        class="w-[1170px] container mx-auto text-[10px] font-normal leading-[100%] text-primary flex justify-between"
+      >
+        <p class="text">
+          &copy; 2025 Plumber Point Services. All rights reserved.
+        </p>
+        <p class="flex gap-[38px]">
+          <span>Term of Services</span>
+          <span>Privacy & policy</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

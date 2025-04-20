@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #dd3142;
+  --color-heading: #0e0e0e;
+  --color-sub-heading: #6d6d6d;
+  --color-nav-text: #222222;
+  --color-testimonial: #eeff06;
+  --text-headline: 30px;
+  --text-title: 16px;
+  --leading-most: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.active {
+  color: #dd3142;
+  font-weight: 700;
+  position: relative;
+}
+
+.active::before{
+    content: "";
+    background: #dd3142;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+}
